@@ -13,13 +13,6 @@
     "require": {
         "laravelcollective/html": "^5.5"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "xubair\\todolist\\TodolistServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
             "Xubair\\Todolist\\": "src/"
