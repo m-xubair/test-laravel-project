@@ -1,0 +1,28 @@
+{
+    "name": "xubair/todolist",
+    "description": "This is test description",
+    "authors": [
+        {
+            "name": "Muhammad Zubair",
+            "email": "zubair812@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "xubair\\todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Xubair\\Todolist\\": "src/"
+        }
+    }
+}
